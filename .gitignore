@@ -9,7 +9,6 @@ lerna-debug.log*
 package.json
  vite.config.js
 node_modules
-dist
 dist-ssr
 *.local
 
@@ -23,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local Netlify folder
+.netlify
