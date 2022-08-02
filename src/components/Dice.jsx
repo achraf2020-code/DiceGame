@@ -4,7 +4,7 @@ const Dice = (props)=>{
       <div className="dice--section dice--try">
         <img 
           className="dice" 
-          src ={`./images/${props.url}`}
+          src ={`/images/${props.url}`}
           
           />
       </div>

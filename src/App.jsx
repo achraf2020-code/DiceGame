@@ -27,12 +27,12 @@ const App = ()=>{
         <Dice url={!luckyNumber?"dice-one.png":decies[luckyNumber].url}/> 
         {(tryCount < 3)?
              <button  className="btn" onClick={handleClick} > 
-              <img className="dice--icon" src ={ "./images/dice-icon.png"}/>
+              <img className="dice--icon" src ={"/images/dice-icon.png"}/>
               Try your chance 
             </button>
         :
         <button  className="btn" onClick={handleRestart} > 
-            <img className="dice--icon" src ={ "./images/dices-icon-rand.png"}/>
+            <img className="dice--icon" src ={"/images/dices-icon-rand.png"}/>
           Start new game
         </button>  
         }

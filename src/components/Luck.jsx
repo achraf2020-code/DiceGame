@@ -5,7 +5,7 @@ const Lucky =(props)=>{
            <img 
             className="dice" 
             // src ={`./images/${props.diceData[winnerNumber].url}`}
-            src ={`./images/${props.url}`}
+            src ={`/images/${props.url}`}
           />
         </div>
     )
